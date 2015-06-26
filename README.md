@@ -5,7 +5,7 @@ Program was tested on **Ubuntu 14.04 Python 3.4** but should work on other opera
 
 ## 2. Installation
 ### 2.1. Installation using virtualenv
-```
+```bash
 #Install virtual env
 apt-get install python-virtualenv
 #Create virtualenv
@@ -19,6 +19,6 @@ And you're ready to go.
 
 ## 3. Execution
 Sometimes to access UART port you have to run program from root
-```
+```bash
 sudo python main.py
 ```

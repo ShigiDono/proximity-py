@@ -1,4 +1,4 @@
-config = [
+config [
 	[
 		{
 			"bottom" : ["Time", "s"],
@@ -64,3 +64,4 @@ config = [
 		},
 	],
 ]
+uart_device = '/dev/ttyACM0'

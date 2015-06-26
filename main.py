@@ -4,9 +4,9 @@ import thread
 from pyqtgraph.Qt import QtCore, QtGui
 from graphbuilder import GraphBuilder
 import pyqtgraph as pg
-from config import config
+from config import config, uart_device
 
-ser = serial.Serial('/dev/ttyACM0', 230400, timeout=1)
+ser = serial.Serial(uart_device, 230400, timeout=1)
 
 graph = GraphBuilder('Proximity graph', config)
  
